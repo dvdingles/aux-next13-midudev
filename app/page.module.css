@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'ITC Eras Demi';
+  src: url('/ITC Eras Demi.ttf'); 
+}
+
+
 .container {
   padding: 0 2rem;
 }
@@ -31,6 +37,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
+  font-family: ITC Eras Demi;
   font-size: 4rem;
   font-style: normal;
   font-weight: 800;
