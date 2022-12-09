@@ -1,8 +1,7 @@
 @font-face {
-  font-family: 'ITC Eras Demi';
-  src: url('/ITC Eras Demi.ttf'); 
+  font-family: ITC Eras Demi;
+  src: url('/ITC Eras Demi.ttf');
 }
-
 
 .container {
   padding: 0 2rem;
@@ -42,18 +41,10 @@
   font-style: normal;
   font-weight: 800;
   letter-spacing: -0.025em;
+  color: var(--auxiliar2);
 }
 
-.title a {
-  text-decoration: none;
-  color: #0070f3;
-}
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
 
 .title,
 .description {
