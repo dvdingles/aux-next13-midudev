@@ -1,9 +1,9 @@
 :root{  
 
-  @font-face {
+  /* @font-face {
     font-family: 'ITC Eras Demi';
     src: url('/ITC Eras Demi.ttf');
-  }
+  } */
   
   --negro     : rgb(39, 39, 39);
   --blanco    : rgb(222,222,222);
@@ -30,6 +30,8 @@ body {
   margin: 0;
   font-family: -apple-system, /* ITC Eras Demi, */ BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+  background-color: var(--blanco);
 }
 
 a {

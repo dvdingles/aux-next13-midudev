@@ -1,0 +1,19 @@
+.header{
+    max-width: 66%;
+    margin: 1rem auto;
+    border: 1px solid #f0f0f0;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 64px
+
+}
+
+.ul a:hover{
+    color:rgb(86, 122, 223);
+    text-decoration: underline;
+}
