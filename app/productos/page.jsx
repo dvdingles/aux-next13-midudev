@@ -1,11 +1,10 @@
 import React from 'react'
+import { ListOfPosts } from './ListOfPosts'
 
-const ProductosPage = () => {
+export default function ProductosPage () {
   return (
-    <>
-      <h1>Esto es un post...</h1>
-    </>
+    <section>
+      <ListOfPosts />
+    </section>
   )
 }
-
-export default ProductosPage

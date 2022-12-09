@@ -1,9 +1,10 @@
 import React from 'react'
 
-const IDPage = () => {
+const IDPage = ({ params }) => {
+  const { id } = params
   return (
     <>
-      <h1>Esto es un id del post</h1>
+      <h1>Esto es un id {id}</h1>
     </>
   )
 }
