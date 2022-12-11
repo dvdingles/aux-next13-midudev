@@ -2,27 +2,13 @@
   font-family: ITC Eras Demi;
   src: url('/ITC Eras Demi.ttf');
 }
-
 .container {
-  /* position: absolute; */
   position: relative;
-  /* top: 22vh; */
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
 }
-
-.main {
-  /* max-height: 90vh; */
-  /* padding: 4rem 0; */
-  /* flex: 1; */
-  /* display: flex; */
-  /* flex-direction: column; */
-  /* justify-content: center; */
-  /* align-items: center; */
-}
-
 .video{
   position:absolute;
   min-height: 100vh;
@@ -30,6 +16,7 @@
   left:0;
   top:0;
   object-fit: cover;
+  z-index: 3;
 }
 .divVideo{
   position:absolute;
@@ -40,6 +27,7 @@
   background-color: var(--negro);
   opacity: 0.5;
   mix-blend-mode: overlay;
+  z-index: 5;
 }
 
 

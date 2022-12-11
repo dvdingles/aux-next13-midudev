@@ -5,7 +5,7 @@ import Titulo from './components/titulos/Titulo'
 export default function InicioPage () {
   return (
     <>
-      <div className={styles.container}>
+      <div style={{ zIndex: '4' }} className={styles.container}>
         <main className={styles.main}>
           <Titulo />
           <Etiquetas />
@@ -17,8 +17,7 @@ export default function InicioPage () {
       </div>
 
       <video className={styles.video} muted autoPlay loop>
-        <source src='../public/1059077006-preview.mp4' type='video/mp4' />
-
+        <source src='/1059077006-preview.mp4' type='video/mp4' />
       </video>
       <div className={styles.divVideo} />
     </>

@@ -12,15 +12,15 @@ export default function RootLayout ({ children }) {
       */}
       <body>
 
-        <header className={styles.header}>
+        {/* <header className={styles.header}>
           <Header />
-        </header>
+        </header> */}
 
         {children}
 
-        <footer className={styles.footer}>
+        {/* <footer className={styles.footer}>
           <Footer />
-        </footer>
+        </footer> */}
 
       </body>
     </html>
