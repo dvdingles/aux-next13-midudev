@@ -1,0 +1,50 @@
+@font-face {
+  font-family: ITC Eras Demi;
+  src: url('/ITC Eras Demi.ttf');
+}
+
+
+
+.header{
+  background-color: brown;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  height: 111px;
+  z-index: 99;
+  /* max-height: 22px; */
+}
+
+.footer{
+  position: absolute;
+  bottom:0;
+  height: 55px;
+  background-color: #1d1d1d;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: red;
+
+}
+
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 2px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.footer a:hover{
+  transition: .3s;
+  color: white;
+}

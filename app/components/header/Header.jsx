@@ -14,9 +14,12 @@ const links = [{
 }, {
   label: 'Servicios',
   route: 'servicios'
+}, {
+  label: 'Contacto',
+  route: 'contacto'
 }]
 
-export const Header = () => {
+const Header = () => {
   return (
     <>
 
@@ -37,3 +40,5 @@ export const Header = () => {
     </>
   )
 }
+
+export default Header

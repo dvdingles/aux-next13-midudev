@@ -1,6 +1,7 @@
 import './globals.css'
-import { Header } from './components/header/Header'
-
+import styles from './layout.module.css'
+import Header from './components/header/Header'
+import Footer from './components/footer/Footer'
 
 export default function RootLayout ({ children }) {
   return (
@@ -11,9 +12,15 @@ export default function RootLayout ({ children }) {
       */}
       <body>
 
-        <Header />
+        <header className={styles.header}>
+          <Header />
+        </header>
 
         {children}
+
+        <footer className={styles.footer}>
+          <Footer />
+        </footer>
 
       </body>
     </html>

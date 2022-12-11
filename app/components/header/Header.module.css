@@ -1,19 +1,25 @@
 .header{
-    max-width: 66%;
-    margin: 1rem auto;
-    border: 1px solid #f0f0f0;
-    border-radius: 4px;
-    padding: 4px;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .ul{
+    max-width: 66%;
+    border-radius: 1rem;
     display: flex;
     list-style: none;
-    gap: 64px
+    gap: 64px;
+    border: 2px solid #f0f0f0;
+    padding: 2rem;
 
 }
 
 .ul a:hover{
     color:rgb(86, 122, 223);
     text-decoration: underline;
+}
+
+.ul li{
+    max-width: 44%;
+    margin: auto;
 }
