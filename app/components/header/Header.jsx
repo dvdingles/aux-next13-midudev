@@ -24,7 +24,7 @@ const Header = () => {
     <>
 
       <header className={styles.header}>
-        <nav>
+        <nav className={styles.nav}>
           <ul className={styles.ul}>
             {links.map(({ label, route }) => (
               <li key={route}>

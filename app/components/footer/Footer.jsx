@@ -6,7 +6,7 @@ export default function Footer () {
         target='_blank'
         rel='noopener noreferrer'
       >
-        Aviso Legal
+        <p>Aviso Legal</p>
       </a>
     </footer>
 

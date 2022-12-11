@@ -6,7 +6,8 @@
 
 
 .header{
-  background-color: brown;
+  /* background-color: var(--blanco); */
+  border-bottom: solid 1px white;
   position: absolute;
   width: 100%;
   top: 0px;
@@ -18,33 +19,35 @@
 .footer{
   position: absolute;
   bottom:0;
-  height: 55px;
-  background-color: #1d1d1d;
+  height: 44px;
   width: 100%;
-  margin: 0;
-  padding: 0;
-  color: red;
-
-}
-
-
-.footer {
-  display: flex;
-  flex: 1;
-  padding: 2rem 0;
-  border-top: 2px solid #eaeaea;
+  /* padding: 0; */
+  /* display: flex; */
+  /* flex: 1; */
+  border-top: 1px solid var(--negro);
+  /* background-color: orange; */
   justify-content: center;
   align-items: center;
+
 }
 
 .footer a {
   display: flex;
+  color: var(--negro);
   justify-content: center;
   align-items: center;
-  flex-grow: 1;
+  background-color: var(--blanco);
 }
 
 .footer a:hover{
   transition: .3s;
   color: white;
+  border: 1px solid white;
+}
+
+.footer p{
+  padding: .2rem;
+  border-radius: .1rem;
+  border: solid 1px var(--negro);
+
 }

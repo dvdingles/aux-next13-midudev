@@ -4,18 +4,42 @@
 }
 
 .container {
+  /* position: absolute; */
   position: relative;
-  top: 22vh;
+  /* top: 22vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
 }
 
 .main {
-  max-height: 90vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  /* max-height: 90vh; */
+  /* padding: 4rem 0; */
+  /* flex: 1; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* align-items: center; */
 }
+
+.video{
+  position:absolute;
+  min-height: 100vh;
+  width: 100%;
+  left:0;
+  top:0;
+  object-fit: cover;
+}
+.divVideo{
+  position:absolute;
+  min-height: 100vh;
+  width: 100%;
+  left:0;
+  top:0;
+  background-color: var(--negro);
+  opacity: 0.5;
+  mix-blend-mode: overlay;
+}
+
 
