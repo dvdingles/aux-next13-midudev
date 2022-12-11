@@ -11,6 +11,9 @@ const links = [{
 }, {
   label: 'Productos',
   route: '/productos'
+}, {
+  label: 'Servicios',
+  route: 'servicios'
 }]
 
 export const Header = () => {

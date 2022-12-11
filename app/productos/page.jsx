@@ -1,7 +1,7 @@
 import React from 'react'
 import { ListOfPosts } from './ListOfPosts'
 
-export default function ProductosPage () {
+export default async function ProductosPage () {
   return (
     <section>
       <ListOfPosts />
